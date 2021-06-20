@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from "react-redux";
-import { PersistGate } from "redux-persist/integration/react";
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react';
 import App from './components/App';
-import store from "./redux/phoneBook2/store";
+import store from './redux/phoneBook2/store';
 import './stylesheets/main.css';
 import './stylesheets/normalize.css';
 
